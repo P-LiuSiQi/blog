@@ -13,6 +13,10 @@ export default {
   name: "home",
   components: {
     HelloWorld
-  }
+  },
+  mounted() {
+    this.$request.get('/example/get')
+    this.$request.post('/example/post', { msg: 'post request!' })
+  },
 };
 </script>

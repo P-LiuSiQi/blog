@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# blog
-this is a blog
-=======
 # blog-front
 
 ## Project setup
@@ -26,4 +22,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> blog-front
